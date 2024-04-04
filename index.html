@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Butkara</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav-top">
+        <div class="logo">
+          <img src="assets/logo/logo.png" alt="logo" />
+          <span
+            >Le collezioni Digitali <br />
+            della Biblioteca ISIAO</span
+          >
+        </div>
+        <div class="nav-controls">
+          <div class="language-switcher">
+            <a href="#" id="language-it" class="language-link">IT </a>/
+            <a href="#" id="language-eng" class="language-link">ENG</a>
+          </div>
+          <button id="burger-btn">☰</button>
+          <span class="close"></span>
+        </div>
+      </div>
+      <div class="nav-bottom">
+        <nav id="nav-menu" class="nav-menu">
+          <div class="nav-content">
+            <ul>
+              <li class="nav-item">
+                <a href="#">Archivio Fotografico</a>
+                <ul class="submenu">
+                  <li>
+                    <a href="#">~Fototeca ISMEO. Ismeo excavations center</a>
+                  </li>
+                  <li><a href="#">~Fototeca ISIAO</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a href="#">Archivio Iconografico</a></li>
+              <li class="nav-item"><a href="#">Documenti</a></li>
+              <li class="nav-item"><a href="#">Percorsi</a></li>
+            </ul>
+            <ul>
+              <li class="nav-item"><a href="#">Il Patrimonio</a></li>
+              <li class="nav-item"><a href="#">Accesso e regolamento</a></li>
+            </ul>
+          </div>
+
+          <div class="nav-search">
+            <div class="nav-search__icon">
+              <i class="fas fa-search"></i>
+            </div>
+            <input
+              class="nav-search__input"
+              type="text"
+              placeholder="cerca in tutto il patrimonio"
+            />
+            <button class="nav-search__btn">
+              <i class="fas fa-arrow-right-long"></i>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!---info-->
+      <section class="info">
+        <div class="info-container">
+          <h4>Archivio Fotografico</h4>
+          <div class="h1-box">
+            <h1>ISMEO excavations center</h1>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+            pharetra rhoncus lorem at dignissim. Quisque dictum tincidunt erat
+            accumsan aliquet. Aliquam efficitur felis non orci lacinia, sit amet
+            molestie lacus congue. Nunc suscipit pulvinar diam ac sagittis.
+            Aenean a sodales purus. Aliquam bibendum erat sed mi elementum
+            pharetra. Nullam ut ex ipsum. Pellentesque urna augue, tincidunt id
+            consequat dignissim, accumsan vitae sapien. Sed placerat magna
+            risus, sed congue erat viverra nec. Donec congue ut augue ut tempor
+          </p>
+        </div>
+      </section>
+
+      <section class="filters">
+        <div class="filters-container">
+          <div class="filters-top">
+            <div class="central-input">
+              <div class="filters-search__icon">
+                <i class="fas fa-search filters"></i>
+              </div>
+              <input
+                type="text"
+                placeholder="Ricerca libera"
+                class="filters-central-input"
+              />
+              <button class="filters-search__btn">
+                <i class="fas fa-arrow-right-long filters"></i>
+              </button>
+            </div>
+          </div>
+          <div class="filters-bottom">
+            <div class="bottom-inputs">
+              <input type="text" placeholder="Titolo" class="bottom-input" />
+              <input
+                type="text"
+                placeholder="Soggetto produttore"
+                class="bottom-input"
+              />
+              <input
+                type="text"
+                placeholder="Autore persona"
+                class="bottom-input"
+              />
+              <input
+                type="text"
+                placeholder="Autore ente"
+                class="bottom-input"
+              />
+            </div>
+            <div class="filters-buttons">
+              <button class="filter-btn">NUOVA RICERCA</button>
+              <button class="filter-btn">RAFFINA RICERCA</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="results-section">
+        <div class="result-container">
+          <div class="results-number">24</div>
+          <div class="result-text">RISULTATI PER:</div>
+          <div class="result-label">BUTKARA</div>
+          <button class="result-close-btn">
+            <div class="result-close-icon">&times;</div>
+          </button>
+        </div>
+        <div class="select-container">
+          <div class="selection-left">
+            <p class="select-text">FILTRA PER</p>
+
+            <div class="select-box">
+              <div class="select-btn">
+                <p class="select-p">Tema</p>
+
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="select-content">
+                <div class="select-search">
+                  <input
+                    type="text"
+                    placeholder=""
+                    class="select-content-input active"
+                  />
+                </div>
+                <ul class="options">
+                  <li>Option<span> 12</span></li>
+                  <li>Option<span> 12</span></li>
+                  <li>Option<span> 12</span></li>
+                  <li>Option<span> 12</span></li>
+                  <li>Option<span> 12</span></li>
+                  <li>Option<span> 12</span></li>
+                  <li>Option<span> 12</span></li>
+                  <li>Option<span> 12</span></li>
+                  <li>Option<span> 12</span></li>
+                  <li>Option<span> 12</span></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="select-box">
+              <div class="select-btn">
+                <p class="select-p">Luoghi</p>
+
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="select-content">
+                <div class="select-search">
+                  <input
+                    type="text"
+                    placeholder=""
+                    class="select-content-input active"
+                  />
+                </div>
+                <ul class="options">
+                  <li>Roma<span> 12</span></li>
+                  <li>Saidu Sharif<span> 12</span></li>
+                  <li>Swa<span> 12</span></li>
+                  <li>Udegramt <span> 12</span></li>
+                  <li>Option<span> 12</span></li>
+                  <li>Option<span> 12</span></li>
+                  <li>Option<span> 12</span></li>
+                  <li>Option<span> 12</span></li>
+                  <li>Option<span> 12</span></li>
+                  <li>Option<span> 12</span></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="select-box">
+              <div class="select-btn">
+                <p class="select-p">Enti</p>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="select-content">
+                <div class="select-search">
+                  <input
+                    type="text"
+                    placeholder=""
+                    class="select-content-input active"
+                  />
+                </div>
+                <ul class="options">
+                  <li>Option<span> 12</span></li>
+                  <li>Option<span> 12</span></li>
+                  <li>Option<span> 12</span></li>
+                  <li>Option<span> 12</span></li>
+                  <li>Option<span> 12</span></li>
+                  <li>Option<span> 12</span></li>
+                  <li>Option<span> 12</span></li>
+                  <li>Option<span> 12</span></li>
+                  <li>Option<span> 12</span></li>
+                  <li>Option<span> 12</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="selection-right">
+            <p class="select-text">ORDINA PER</p>
+            <div class="select-box">
+              <div class="select-btn">
+                <p class="select-p">Ranking</p>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="select-content">
+                <div class="select-search">
+                  <input
+                    type="text"
+                    placeholder=""
+                    class="select-content-input active"
+                  />
+                </div>
+                <ul class="options">
+                  <li>Option<span> 12</span></li>
+                  <li>Option<span> 12</span></li>
+                  <li>Option<span> 12</span></li>
+                  <li>Option<span> 12</span></li>
+                  <li>Option<span> 12</span></li>
+                  <li>Option<span> 12</span></li>
+                  <li>Option<span> 12</span></li>
+                  <li>Option<span> 12</span></li>
+                  <li>Option<span> 12</span></li>
+                  <li>Option<span> 12</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card-section">
+        <div class="cards-container"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-left">
+          <ul>
+            <li class="footer-item"><a href="#">Cookies</a></li>
+            <li class="footer-item"><a href="#">Privacy</a></li>
+            <li class="footer-item"><a href="#">Note legali</a></li>
+            <li class="footer-item"><a href="#">Credit</a></li>
+          </ul>
+        </div>
+        <div class="footer-center">
+          <ul>
+            <li class="footer-item special">
+              ©2024 Le collezioni Digitali della Biblioteca ISIAO
+            </li>
+            <li class="footer-item line">
+              <a href="#"
+                ><span class="letter-spaced">ISMEO </span><br />Associazione
+                Internazionale di Studi sul <br />Mediterraneo e l'Oriente</a
+              >
+            </li>
+            <li class="footer-item special">
+              <a href="#">bibliotecaisiao.ismeo.eu</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-right">
+          <p class="footer-item">
+            powered by
+            <span><a href="https://www.regesta.com/">regesta.exe</a></span>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/a99c5cc354.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
