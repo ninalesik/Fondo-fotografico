@@ -94,44 +94,35 @@
 
       <section class="filters">
         <div class="filters-container">
-          <div class="filters-top">
-            <div class="central-input">
-              <div class="filters-search__icon">
-                <i class="fas fa-search filters"></i>
-              </div>
-              <input
-                type="text"
-                placeholder="Ricerca libera"
-                class="filters-central-input"
-              />
-              <button class="filters-search__btn">
-                <i class="fas fa-arrow-right-long filters"></i>
-              </button>
+          <div class="central-input">
+            <div class="filters-search__icon">
+              <i class="fas fa-search filters"></i>
             </div>
+            <input
+              type="text"
+              placeholder="Ricerca libera"
+              class="filters-central-input"
+            />
+            <button class="filters-search__btn">
+              <i class="fas fa-arrow-right-long filters"></i>
+            </button>
           </div>
-          <div class="filters-bottom">
-            <div class="bottom-inputs">
-              <input type="text" placeholder="Titolo" class="bottom-input" />
-              <input
-                type="text"
-                placeholder="Soggetto produttore"
-                class="bottom-input"
-              />
-              <input
-                type="text"
-                placeholder="Autore persona"
-                class="bottom-input"
-              />
-              <input
-                type="text"
-                placeholder="Autore ente"
-                class="bottom-input"
-              />
-            </div>
-            <div class="filters-buttons">
-              <button class="filter-btn">NUOVA RICERCA</button>
-              <button class="filter-btn">RAFFINA RICERCA</button>
-            </div>
+
+
+            <input type="text" placeholder="Titolo" class="bottom-input one" />
+            <input
+              type="text"
+              placeholder="Soggetto produttore"
+              class="bottom-input two"
+            />
+            <input
+              type="text"
+              placeholder="Autore persona"
+              class="bottom-input three"
+            />
+            <input type="text" placeholder="Autore ente" class="bottom-input four" />
+            <button class="filter-btn__left">NUOVA RICERCA</button>
+            <button class="filter-btn__right">RAFFINA RICERCA</button>
           </div>
         </div>
       </section>
@@ -271,6 +262,29 @@
 
       <section class="card-section">
         <div class="cards-container"></div>
+      </section>
+
+      <section class="pagination-section">
+        <div class="pagination-container">
+          <ul class="pagination">
+            <li class="pagination-btn">
+              <i class="fas fa-chevron-left"></i>
+              <span>precedente</span>
+            </li>
+            <li class="numb active"><span>1</span></li>
+            <li class="numb"><span></span>2</li>
+            <li class="numb"><span></span>3</li>
+            <li class="numb"><span></span>4</li>
+            <li class="numb"><span></span>5</li>
+            <li class="numb"><span></span>6</li>
+            <li class="numb"><span></span>7</li>
+            <li class="numb"><span></span>8</li>
+            <li class="pagination-btn">
+              <span>successivo</span>
+              <i class="fas fa-chevron-right"></i>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 

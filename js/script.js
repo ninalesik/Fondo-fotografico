@@ -48,8 +48,8 @@ http.onreadystatechange = function () {
       </div>
       <div class="card-details">
           <h2 class="card-title">${card.title}</h2>
-          <hr>
           <p class="card-year">${card.year}</p>
+          <hr class="card-line">
           <p class="card-library">${card.library}</p>
       </div>
   </div>
