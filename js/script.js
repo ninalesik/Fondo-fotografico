@@ -29,6 +29,16 @@ selectBtns.forEach((selectBtn) => {
   });
 });
 
+let pagines = document.querySelectorAll(".numb");
+pagines.forEach((pagine) => {
+  pagine.addEventListener("click", () => {
+    pagines.forEach((p) => {
+      p.classList.remove("active");
+    });
+    pagine.classList.add("active");
+  });
+});
+
 let http = new XMLHttpRequest();
 http.open("get", "/js/archive.json", true);
 http.send();
