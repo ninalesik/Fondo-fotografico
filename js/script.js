@@ -40,7 +40,7 @@ pagines.forEach((pagine) => {
 });
 
 let http = new XMLHttpRequest();
-http.open("get", "/js/archive.json", true);
+http.open("get", "./js/archive.json", true);
 http.send();
 
 http.onreadystatechange = function () {
