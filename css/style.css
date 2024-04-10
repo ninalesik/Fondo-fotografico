@@ -783,6 +783,19 @@ header {
   #burger-btn {
     font-size: 20px;
   }
+  .nav-menu {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 10px;
+  }
+
+  .nav-search {
+    width: 400px;
+    justify-self: center;
+  }
+  .nav-search__icon {
+    margin-left: 5px;
+  }
   .info h1 {
     font-size: 21px;
     border-bottom: 2px solid #ffb400;
@@ -838,14 +851,14 @@ header {
     grid-row: auto;
     margin: 0;
     width: 70%;
-    justify-self: center;
+    justify-self: stretch;
     height: 30px;
   }
   .filter-btn__left,
   .filter-btn__right {
     grid-column: auto;
     grid-row: auto;
-    justify-self: center;
+    justify-self: stretch;
     width: 150px;
   }
 
