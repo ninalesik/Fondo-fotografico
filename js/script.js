@@ -1,3 +1,4 @@
+const header = document.querySelector("header");
 const nav = document.querySelector(".nav-bottom");
 const navBtn = document.getElementById("burger-btn");
 const close = document.querySelector(".close");
@@ -6,6 +7,7 @@ navBtn.onclick = () => {
   nav.style.display = "block";
   close.style.display = "block";
   navBtn.style.display = "none";
+  // header.classList.toggle("active");
 };
 
 close.onclick = () => {
@@ -13,6 +15,16 @@ close.onclick = () => {
   close.style.display = "none";
   navBtn.style.display = "block";
 };
+
+// checkNavState = () => {
+//   const isNavOpen = nav.style.display !== "none";
+//   if (isNavOpen) {
+//     navTop.style.position = "fixed";
+//   }
+//    else {
+//     navTop.classList.remove("fixed-top");
+//     }
+// };
 
 const selectBtns = document.querySelectorAll(".select-btn");
 
