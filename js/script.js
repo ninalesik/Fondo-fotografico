@@ -7,13 +7,14 @@ navBtn.onclick = () => {
   nav.style.display = "block";
   close.style.display = "block";
   navBtn.style.display = "none";
-  // header.classList.toggle("active");
+  header.classList.add("open");
 };
 
 close.onclick = () => {
   nav.style.display = "none";
   close.style.display = "none";
   navBtn.style.display = "block";
+  header.classList.remove("open");
 };
 
 // checkNavState = () => {
