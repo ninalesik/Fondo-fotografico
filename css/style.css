@@ -1255,7 +1255,9 @@ header {
     margin-bottom: 15px;
     justify-self: center;
   }
-
+  .filters-central-input {
+    overflow: hidden;
+  }
   .select-container {
     display: grid;
     grid-template-columns: repeat(autofill, 200px);
@@ -1302,7 +1304,16 @@ header {
     width: 160px;
     font-size: 12px;
   }
-
+  .central-input {
+    width: 130px;
+  }
+  .filters-search__icon {
+    display: none;
+  }
+  .fas.fa-search.filters {
+    display: none;
+    margin: 0 4px 0 5px;
+  }
   .select-container {
     grid-template-columns: 1fr;
     justify-content: center;
