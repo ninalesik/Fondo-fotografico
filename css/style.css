@@ -1223,14 +1223,17 @@ header {
     font-size: 20px;
   }
   .nav-menu {
-    display: grid;
-    grid-template-columns: 1fr;
     margin-left: 10px;
   }
-
+  .nav-content {
+    grid-template-columns: 1fr;
+  }
+  .nav-content ul {
+    justify-self: start;
+  }
   .nav-search {
     width: 400px;
-    justify-self: center;
+    justify-self: start;
   }
   .nav-search__icon {
     margin-left: 5px;
