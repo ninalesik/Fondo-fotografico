@@ -309,6 +309,8 @@ header {
   border: none;
   background: none;
   cursor: pointer;
+  margin-left: auto;
+  margin-right: 10px;
 }
 .fa-arrow-right-long.filters {
   font-size: small;
@@ -905,8 +907,9 @@ header {
   .filter-btn__right {
     grid-column: auto;
     grid-row: auto;
-    justify-self: stretch;
+    justify-self: start;
     width: 150px;
+    font-size: 13px;
   }
 
   .result-container {
@@ -1106,8 +1109,9 @@ header {
   .filter-btn__right {
     grid-column: auto;
     grid-row: auto;
-    justify-self: stretch;
+    justify-self: start;
     width: 150px;
+    font-size: 13px;
   }
 
   .select-container {
@@ -1289,8 +1293,9 @@ header {
   .filter-btn__right {
     grid-column: auto;
     grid-row: auto;
-    justify-self: center;
-    width: 150px;
+    justify-self: start;
+    width: 160px;
+    font-size: 12px;
   }
 
   .select-container {
@@ -1412,7 +1417,7 @@ header {
     height: 30px;
   }
   .filters-search__btn {
-    display: none;
+    justify-self: start;
   }
   .numb {
     padding: 3px 7px;
@@ -1529,7 +1534,7 @@ header {
   .filter-btn__right {
     grid-column: auto;
     grid-row: auto;
-    justify-self: center;
+    justify-self: start;
     width: 150px;
   }
 
