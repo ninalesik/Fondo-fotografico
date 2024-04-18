@@ -17,16 +17,6 @@ close.onclick = () => {
   header.classList.remove("open");
 };
 
-// checkNavState = () => {
-//   const isNavOpen = nav.style.display !== "none";
-//   if (isNavOpen) {
-//     navTop.style.position = "fixed";
-//   }
-//    else {
-//     navTop.classList.remove("fixed-top");
-//     }
-// };
-
 const selectBtns = document.querySelectorAll(".select-btn");
 
 selectBtns.forEach((selectBtn) => {
